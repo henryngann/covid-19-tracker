@@ -6,10 +6,12 @@ This tracker sorts confirmed cases, deaths and recovered data through a dynamic 
 
 Made using Chart.js, ES6JS, Bootstrapv5
 
-[Video Demonstration]https://www.youtube.com/watch?v=889NxDlaPSg&feature=youtu.be
+Click the picture for a video demonstration.
 
 
-![Picture Here](https://github.com/henryngann/covid-19-tracker/blob/main/screenshot.png)(https://www.youtube.com/watch?v=889NxDlaPSg&feature=youtu.be)
+[![Click Me!](https://github.com/henryngann/covid-19-tracker/blob/main/screenshot.png)](https://www.youtube.com/watch?v=889NxDlaPSg&feature=youtu.be)
+
+
 
 # Have an idea? Lets talk!
 
