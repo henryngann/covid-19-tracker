@@ -8,5 +8,5 @@ Made using Chart.js, ES6JS, Bootstrapv5
 
 
 
-![Picture Here](https://github.com/[henryngann]/[covid-19-tracker]/blob/[main]/screenshot.png?raw=true)
+![Picture Here]https://github.com/henryngann/covid-19-tracker/blob/main/screenshot.png
 
