@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry's Covid-19 Tracker</title>
+    <!-- Importing Chart.JS Library-->
+<script src ="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js">
+</script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <!-- Section-->
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="px-md-5 p-3 col-md-6 d-flex flex-column align-items-start justify-content-center" style="">
+              <h1>Covid-19 Cases</h1>
+              <p class="mb-3 lead">Simply select a country using the dropdown below to view cases per country.</p>
+              <div class="row">
+                <div class="col-md-12" style="">
+                  <div class="btn-group shadow">
+                    <select id="mySelect" class ="btn btn-primary rounded-3" onChange="updateChartOnChange()">
+                        <option value="">Global
+                        <option value="Canada">Canada
+                        <option value="Russia">Russia
+                        <option value="Pakistan">Pakistan
+                        <option value="Brazil">Brazil
+                        <option value="Australia">Australia
+                        <option value="China">China
+                        <option value="Mexico">Mexico
+                        <option value="Japan">Japan
+                      </select>
+                      <p id="demo"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6"> <canvas id="myChart" width="400" height="400"></canvas> </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Section-->
+      
+      <div class="py-5" style="">
+        <div class="container">
+          <div class="row">
+            <div class="px-5 col-md-8 text-center mx-auto">
+              <h3 class="text-primary display-4">Misc</h3>
+              <h2 class="my-3">Henry Ngan - Developer</h2>
+              <p class="mb-0">This project is a tracker on all Covid-19 cases across the globe using an API provided by Johns Hopkins University. If you are curious about my other work, come check out my other projects!<br><br><br>Made using Bootstrapv5, Chart.js, JavaScript ES6</p> <a href="https://github.com/henryngann" class="btn btn-primary rounded shadow mt-1">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Section-->
+    </div>
+<!-- Importing Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<!-- Importing Personal File-->
+<script src="index.js"></script>
+
+
+</body>
+</html>
