@@ -2,7 +2,7 @@
 
 Covid-19 Tracker that maps case data sorted by country using an API provided by John Hopkins University.
 
-This tracker sorts confirmed cases, deaths and recovered data through a dynamic bar graph.
+This tracker sorts confirmed cases, deaths and recovered data using a dynamic bar graph. The dropdown component filters all countries for minimal latency.
 
 Made using Chart.js, ES6JS, Bootstrapv5
 
